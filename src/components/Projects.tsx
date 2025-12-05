@@ -36,6 +36,14 @@ const Projects = () => {
       github: "https://github.com/NKING001/Python-GUI-Calculator",
       demo: "#",
     },
+      {
+      id: 5,
+      title: "F1 Telemetry Simulator",
+      description: "Real-time Formula 1 telemetry simulator built with Python and Streamlit, featuring DRS, pit stops, tyre wear, safety car logic, CSV export, and an optional machine learning prediction module.",
+      tags: ["Python","Streamlit", "Simulation", "Machine Learning"],
+      github: "https://github.com/NKING001/F1-Telemetry-Simulator",
+      demo: "#",
+    },
   ];
 
   return (
