@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  TODO: Replace BASE with the production origin (e.g. https://example.com)
+  before deployment. Sitemap URLs should be fully qualified per the sitemap
+  protocol. Relative paths below are placeholders.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>/</loc></url>
+  <url><loc>/work</loc></url>
+  <url><loc>/work/etl-pipeline</loc></url>
+  <url><loc>/work/f1-telemetry</loc></url>
+  <url><loc>/work/churn-prediction</loc></url>
+  <url><loc>/work/expense-tracker</loc></url>
+  <url><loc>/work/weather-forecast</loc></url>
+  <url><loc>/work/decentralized-voting</loc></url>
+  <url><loc>/work/tarunika</loc></url>
+  <url><loc>/about</loc></url>
+  <url><loc>/contact</loc></url>
+</urlset>
