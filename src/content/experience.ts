@@ -1,4 +1,4 @@
-export type ExperienceKind = "training" | "founder";
+export type ExperienceKind = "internship" | "training" | "founder";
 
 export type Experience = {
   id: string;
@@ -15,6 +15,58 @@ export type Experience = {
 };
 
 export const experiences: Experience[] = [
+  {
+    id: "tarunika-founder",
+    kind: "founder",
+    category: "Founder / Builder",
+    role: "Founder · Product & Web Engineering",
+    org: "Tarunika — Premium Indian Food & Pickle Brand",
+    period: "Ongoing",
+    location: "India · Remote",
+    summary:
+      "Building Tarunika, a premium Indian food and pickle brand, end-to-end — from brand system and product catalog structure to the e-commerce architecture and responsive web experience.",
+    highlights: [
+      "Owning product direction, catalog structure, and brand system for a premium food line.",
+      "Designing and building the storefront experience with a modern web stack focused on responsive UX.",
+      "Architecting the e-commerce flow: catalog, content, payments, and media pipeline.",
+      "Handling day-to-day business operations alongside the technical build.",
+    ],
+    skills: [
+      "Product Development",
+      "Web Engineering",
+      "E-commerce",
+      "UI / UX",
+      "Brand Systems",
+      "Entrepreneurship",
+    ],
+    disclaimer:
+      "Target architecture: Next.js, React, TypeScript, Tailwind CSS, GSAP / Framer Motion, Supabase, Razorpay, Cloudinary. Stack reflects the planned build; deployment status evolves as the product ships.",
+  },
+
+  {
+    id: "learning-education-hub-data-science-intern",
+    kind: "internship",
+    category: "Professional Experience",
+    role: "Data Science Intern",
+    org: "Learning Education Hub",
+    period: "January 2026 · June 2026",
+    location: "Bhopal, Madhya Pradesh, IN · LEH Office",
+    summary:
+      "Worked as a Data Science Intern at Learning Education Hub from January to June 2026, gaining hands-on experience in applying data science concepts to practical problems and developing data-driven solutions.",
+    highlights: [
+      "Applied data science concepts to practical problems as part of the internship.",
+      "Worked with data analysis and machine learning workflows.",
+      "Developed practical understanding of data preparation, analysis, and interpretation.",
+      "Strengthened hands-on experience with Python-based data science tools and workflows.",
+    ],
+    skills: [
+      "Data Science",
+      "Python",
+      "Data Analysis",
+      "Machine Learning",
+    ],
+  },
+
   {
     id: "siemens-iot-training",
     kind: "training",
@@ -44,32 +96,5 @@ export const experiences: Experience[] = [
     ],
     disclaimer:
       "Professional technical training program — not employment with Siemens.",
-  },
-  {
-    id: "tarunika-founder",
-    kind: "founder",
-    category: "Founder / Builder",
-    role: "Founder · Product & Web Engineering",
-    org: "Tarunika — Premium Indian Food & Pickle Brand",
-    period: "Ongoing",
-    location: "India · Remote",
-    summary:
-      "Building Tarunika, a premium Indian food and pickle brand, end-to-end — from brand system and product catalog structure to the e-commerce architecture and responsive web experience.",
-    highlights: [
-      "Owning product direction, catalog structure, and brand system for a premium food line.",
-      "Designing and building the storefront experience with a modern web stack focused on responsive UX.",
-      "Architecting the e-commerce flow: catalog, content, payments, and media pipeline.",
-      "Handling day-to-day business operations alongside the technical build.",
-    ],
-    skills: [
-      "Product Development",
-      "Web Engineering",
-      "E-commerce",
-      "UI / UX",
-      "Brand Systems",
-      "Entrepreneurship",
-    ],
-    disclaimer:
-      "Target architecture: Next.js, React, TypeScript, Tailwind CSS, GSAP / Framer Motion, Supabase, Razorpay, Cloudinary. Stack reflects the planned build; deployment status evolves as the product ships.",
   },
 ];
